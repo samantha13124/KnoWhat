@@ -27,7 +27,12 @@ namespace KnoWhat
             toolbar_Search = new ToolbarItem() { Icon = "search_icon.png" };
             this.ToolbarItems.Add(toolbar_Search);
             toolbar_Search.Clicked += toolbar_Search_Clicked;
+
+
+            var layout = new StackLayout();
         }
+
+
         
 
         // Methods for when toolbar buttons are clicked
